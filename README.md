@@ -70,7 +70,7 @@ toAddr：把fromAddr端口的数据转发到哪个IP的端口上
 ```
 /ForwardWork?auth=taven123&status=1&fromAddr=:8010&toAddr=:22
 
-表示把机器上的8010映射到本机的22.
+表示把机器上的8010端口映射到本机的22端口.
 
 ```
 
