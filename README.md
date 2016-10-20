@@ -7,6 +7,10 @@
 
 执行build.dat，会自动编译出linux和windows的执行程序，文件名分别为：“forwardPort”、“forwardPort.exe”
 
+```
+
+##不想编译：
+```
 为了方便大家使用，我将已编译好的二进制文件也提供给大家：
 Windows-64位：
 https://github.com/tavenli/forwardPort/releases/download/1.0/forwardPort-win-64.zip
