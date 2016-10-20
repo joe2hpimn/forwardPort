@@ -25,14 +25,8 @@ var clientSMap map[string]net.Conn
 var forwardInfo string
 
 func main() {
-	// /usr/local/sbin/forward
-	// /usr/local/sbin/startForward.sh
-	// echo "/usr/local/sbin/startForward.sh" >> /etc/rc.local
 
 	clientSMap = make(map[string]net.Conn)
-
-	//设置最大可使用的CPU个数
-	//runtime.GOMAXPROCS(*threadN)
 
 	//解析传入的参数
 	flag.Parse()
