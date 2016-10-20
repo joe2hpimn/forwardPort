@@ -73,7 +73,7 @@ restApi：rest接口监听的地址，启动时不带该参数，则默认为：
 
 #REST接口参数说明：
 /ForwardWork?auth=taven123&status=1&fromAddr=:8010&toAddr=10.11.2.20:3389
-auth：密码，默认为taven123
+auth：密码
 status：如果是开启转发，则为1，如果是关闭转发，则为0
 fromAddr：要用来在A机器上监听的一个端口，用来给客户端连接
 toAddr：把fromAddr端口的数据转发到哪个IP的端口上
@@ -87,7 +87,7 @@ toAddr：把fromAddr端口的数据转发到哪个IP的端口上
 
 ```
 
-
+###我是一名Java程序员，当我遇上了Go语言后，我想说程序员界最喜欢说的一句话来赞美它：“Go是世界上最好的语言”
 
 
 
