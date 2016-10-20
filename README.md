@@ -56,16 +56,20 @@ forwardPort工具就是可以让你在A服务器上开启一个端口，当你�
 ##其它说明
 ```
 windows-64下：
-forwardPort.exe -auth 123 -restApi 10.10.1.100:9999
+> forwardPort.exe
+或
+> forwardPort.exe -auth 123 -restApi 10.10.1.100:9999
 
 linux-64下：
-./forwardPort -auth 123 -restApi 10.10.1.100:9999
+$ ./forwardPort
+或
+$ ./forwardPort -auth 123 -restApi 10.10.1.100:9999
 
 ```
 #参数说明：
 ```
-auth：rest接口调用时的密码
-restApi：rest接口监听的地址
+auth：rest接口调用时的密码，启动时不带该参数，则默认为：taven123
+restApi：rest接口监听的地址，启动时不带该参数，则默认为：0.0.0.0:8000
 
 #REST接口参数说明：
 /ForwardWork?auth=taven123&status=1&fromAddr=:8010&toAddr=10.11.2.20:3389
