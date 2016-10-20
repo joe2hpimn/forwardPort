@@ -2,10 +2,19 @@
 端口转发/映射工具 forward for port data
 
 ##编译：
+```
 配置好你的GO开发环境，推荐GO 1.7以上；
 
 执行build.dat，会自动编译出linux和windows的执行程序，文件名分别为：“forwardPort”、“forwardPort.exe”
 
+为了方便大家使用，我将已编译好的二进制文件也提供给大家：
+Windows-64位：
+https://github.com/tavenli/forwardPort/releases/download/1.0/forwardPort-win-64.zip
+
+Linux-64位：
+https://github.com/tavenli/forwardPort/releases/download/1.0/forwardPort-linux-64.zip
+
+```
 
 ##场景1：
 工作中，有时候会碰到A服务器可以访问B服务器，但是你只能访问到A服务器，B服务器限制了只有A服务器能访问它；如果你需要访问B服务器，必须通过A服务器跳一次。
