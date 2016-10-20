@@ -2,8 +2,9 @@
 端口转发/映射工具 forward for port data
 
 ##编译：
-1、配置好你的GO开发环境，推荐GO 1.7以上；
-2、执行build.dat，会自动编译出linux和windows的执行程序，文件名分别为：“forwardPort”、“forwardPort.exe”
+配置好你的GO开发环境，推荐GO 1.7以上；
+
+执行build.dat，会自动编译出linux和windows的执行程序，文件名分别为：“forwardPort”、“forwardPort.exe”
 
 
 ##场景1：
